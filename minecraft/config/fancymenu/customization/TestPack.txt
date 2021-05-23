@@ -1,0 +1,52 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  renderorder = foreground
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = bottom-left
+  x = 4
+  action = movebutton
+  y = -24
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = bottom-left
+  x = 27
+  action = movebutton
+  y = -24
+}
+
+customization {
+  identifier = %id=502346%
+  orientation = bottom-left
+  x = 73
+  action = movebutton
+  y = -24
+}
+
+customization {
+  identifier = %id=502346%
+  width = 20
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502346%
+  action = setbuttonlabel
+  value = R
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = bottom-left
+  x = 50
+  action = movebutton
+  y = -24
+}
+

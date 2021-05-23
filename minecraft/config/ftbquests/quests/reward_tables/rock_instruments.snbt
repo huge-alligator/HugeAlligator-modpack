@@ -1,0 +1,69 @@
+{
+	id: "62B0B577C8C56C25",
+	order_index: 0,
+	title: "Rock Instruments",
+	icon: {
+		id: "clef:instrument",
+		Count: 1b,
+		tag: {
+			itemName: "electricbass"
+		}
+	},
+	loot_size: 1,
+	rewards: [
+		{
+			item: {
+				id: "clef:instrument",
+				Count: 1b,
+				tag: {
+					itemName: "rockorgan"
+				}
+			}
+		},
+		{
+			item: {
+				id: "clef:instrument",
+				Count: 1b,
+				tag: {
+					itemName: "leadguitar"
+				}
+			}
+		},
+		{
+			item: {
+				id: "clef:instrument",
+				Count: 1b,
+				tag: {
+					itemName: "electricbass"
+				}
+			}
+		},
+		{
+			item: {
+				id: "clef:instrument",
+				Count: 1b,
+				tag: {
+					itemName: "overdriveguitar"
+				}
+			}
+		},
+		{
+			item: {
+				id: "clef:instrument",
+				Count: 1b,
+				tag: {
+					itemName: "acousticguitar"
+				}
+			}
+		},
+		{
+			item: {
+				id: "clef:instrument",
+				Count: 1b,
+				tag: {
+					itemName: "drumkit"
+				}
+			}
+		}
+	]
+}

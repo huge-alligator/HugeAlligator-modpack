@@ -1,0 +1,249 @@
+[11:35:24.189][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
+[11:35:25.000][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
+'crafttweaker' at version '7.1.0.119'
+'iceandfire' at version '2.1.6-1.16.4'
+'immersivepetroleum' at version '3.1.0-2'
+'jeitweaker' at version '1.0.1.11'
+'thermal_expansion' at version '1.1.6'
+[11:35:25.100][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.item.ItemStack for native type 'net.minecraft.item.ItemStack'
+[11:35:25.100][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.event.entity.living.MCLivingHealEvent for native type 'net.minecraftforge.event.entity.living.LivingHealEvent'
+[11:35:25.101][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.event.entity.player.xp.MCLevelChangeEvent for native type 'net.minecraftforge.event.entity.player.PlayerXpEvent.LevelChange'
+[11:35:25.101][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.event.entity.player.interact.MCRightClickBlockEvent for native type 'net.minecraftforge.event.entity.player.PlayerInteractEvent.RightClickBlock'
+[11:35:25.101][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.event.entity.player.MCPlayerLoggedOutEvent for native type 'net.minecraftforge.event.entity.player.PlayerEvent.PlayerLoggedOutEvent'
+[11:35:25.101][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.blocks.MCBlockState for native type 'net.minecraft.block.BlockState'
+[11:35:25.101][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.event.entity.player.MCPlayerEvent for native type 'net.minecraftforge.event.entity.player.PlayerEvent'
+[11:35:25.101][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.event.entity.player.interact.MCRightClickEmptyEvent for native type 'net.minecraftforge.event.entity.player.PlayerInteractEvent.RightClickEmpty'
+[11:35:25.102][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.event.entity.player.MCItemFishedEvent for native type 'net.minecraftforge.event.entity.player.ItemFishedEvent'
+[11:35:25.102][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.event.MCEvent for native type 'net.minecraftforge.eventbus.api.Event'
+[11:35:25.102][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.event.entity.player.MCPlayerDestroyItemEvent for native type 'net.minecraftforge.event.entity.player.PlayerDestroyItemEvent'
+[11:35:25.102][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.item.Ingredient for native type 'net.minecraft.item.crafting.Ingredient'
+[11:35:25.102][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.event.entity.player.MCAnvilRepairEvent for native type 'net.minecraftforge.event.entity.player.AnvilRepairEvent'
+[11:35:25.108][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.util.DamageSource for native type 'net.minecraft.util.DamageSource'
+[11:35:25.109][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.event.entity.living.MCLivingDeathEvent for native type 'net.minecraftforge.event.entity.living.LivingDeathEvent'
+[11:35:25.109][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.event.entity.living.MCLivingHurtEvent for native type 'net.minecraftforge.event.entity.living.LivingHurtEvent'
+[11:35:25.109][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.event.tick.MCTickEvent for native type 'net.minecraftforge.event.TickEvent'
+[11:35:25.109][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.potion.MCPotionEffectInstance for native type 'net.minecraft.potion.EffectInstance'
+[11:35:25.109][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.entity.MCEntityClassification for native type 'net.minecraft.entity.EntityClassification'
+[11:35:25.109][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.event.entity.player.MCAdvancementEvent for native type 'net.minecraftforge.event.entity.player.AdvancementEvent'
+[11:35:25.112][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.util.MCResourceLocation for native type 'net.minecraft.util.ResourceLocation'
+[11:35:25.114][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.block.material.MCMaterialColor for native type 'net.minecraft.block.material.MaterialColor'
+[11:35:25.114][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.event.entity.player.xp.MCXpChangeEvent for native type 'net.minecraftforge.event.entity.player.PlayerXpEvent.XpChange'
+[11:35:25.114][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.enchantment.MCEnchantment for native type 'net.minecraft.enchantment.Enchantment'
+[11:35:25.114][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.blocks.MCBlock for native type 'net.minecraft.block.Block'
+[11:35:25.114][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.util.BlockPos for native type 'net.minecraft.util.math.BlockPos'
+[11:35:25.115][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.player.MCPlayerEntity for native type 'net.minecraft.entity.player.PlayerEntity'
+[11:35:25.115][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.world.MCServerWorld for native type 'net.minecraft.world.server.ServerWorld'
+[11:35:25.115][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.event.tick.MCPlayerTickEvent for native type 'net.minecraftforge.event.TickEvent.PlayerTickEvent'
+[11:35:25.116][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.event.entity.player.MCPlayerRespawnEvent for native type 'net.minecraftforge.event.entity.player.PlayerEvent.PlayerRespawnEvent'
+[11:35:25.116][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.entity.MCEntity for native type 'net.minecraft.entity.Entity'
+[11:35:25.116][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.event.entity.player.interact.MCPlayerInteractEvent for native type 'net.minecraftforge.event.entity.player.PlayerInteractEvent'
+[11:35:25.116][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.potion.MCPotionEffect for native type 'net.minecraft.potion.Effect'
+[11:35:25.117][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.event.entity.MCLivingEvent for native type 'net.minecraftforge.event.entity.living.LivingEvent'
+[11:35:25.117][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.villager.MCVillagerProfession for native type 'net.minecraft.entity.merchant.villager.VillagerProfession'
+[11:35:25.117][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.event.player.MCItemCraftedEvent for native type 'net.minecraftforge.event.entity.player.PlayerEvent.ItemCraftedEvent'
+[11:35:25.117][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.entity.MCLivingEntity for native type 'net.minecraft.entity.LivingEntity'
+[11:35:25.118][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.block.material.MCMaterial for native type 'net.minecraft.block.material.Material'
+[11:35:25.120][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.util.DirectionAxis for native type 'net.minecraft.util.Direction.Axis'
+[11:35:25.120][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.event.entity.player.interact.MCRightClickItemEvent for native type 'net.minecraftforge.event.entity.player.PlayerInteractEvent.RightClickItem'
+[11:35:25.120][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.world.MCBiome for native type 'net.minecraft.world.biome.Biome'
+[11:35:25.120][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.event.entity.MCEntityEvent for native type 'net.minecraftforge.event.entity.EntityEvent'
+[11:35:25.120][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.item.MCItemDefinition for native type 'net.minecraft.item.Item'
+[11:35:25.121][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.event.entity.player.MCPlayerLoggedInEvent for native type 'net.minecraftforge.event.entity.player.PlayerEvent.PlayerLoggedInEvent'
+[11:35:25.121][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.potion.MCPotion for native type 'net.minecraft.potion.Potion'
+[11:35:25.121][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.event.entity.player.MCItemPickupEvent for native type 'net.minecraftforge.event.entity.player.PlayerEvent.ItemPickupEvent'
+[11:35:25.121][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.event.entity.player.MCItemSmeltedEvent for native type 'net.minecraftforge.event.entity.player.PlayerEvent.ItemSmeltedEvent'
+[11:35:25.121][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.fluid.MCFluid for native type 'net.minecraft.fluid.Fluid'
+[11:35:25.122][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.world.MCWorld for native type 'net.minecraft.world.World'
+[11:35:25.135][CONSTRUCT][CLIENT][DEBUG] Registering mods.iceandfire.recipes
+[11:35:25.169][CONSTRUCT][CLIENT][DEBUG] Registering mods.jei.JEI
+[11:35:25.176][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.ILogger
+[11:35:25.203][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.brackets.CommandStringDisplayable
+[11:35:25.236][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.recipe.RecipeFunctionMatrix
+[11:35:25.238][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.recipe.RecipeFunctionSingle
+[11:35:25.251][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.recipe.RecipeFunctionArray
+[11:35:25.257][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.registries.IRecipeManager
+[11:35:25.259][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.recipe.RecipeFilter
+[11:35:25.260][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.registries.ICookingRecipeManager
+[11:35:25.260][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.data.IData
+[11:35:25.261][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.data.ICollectionData
+[11:35:25.277][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.data.INumberData
+[11:35:25.278][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.fluid.IFluidStack
+[11:35:25.315][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.mods.ModInfo
+[11:35:25.316][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.mods.Mods
+[11:35:25.375][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.item.IIngredientTransformer
+[11:35:25.378][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.item.tooltip.ITooltipFunction
+[11:35:25.381][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.item.IIngredient
+[11:35:25.385][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.item.IItemStack
+[11:35:25.391][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.item.IIngredientWithAmount
+[11:35:25.403][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.item.IIngredientCondition
+[11:35:25.503][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.events.CTEventManager
+[11:35:25.503][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.entity.MCEntityType
+[11:35:25.506][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.util.Direction
+[11:35:25.509][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.util.text.MCStyle
+[11:35:25.510][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.util.text.MCTextComponent
+[11:35:25.514][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.text.TextFormatting
+[11:35:25.516][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.recipes.WrapperRecipe
+[11:35:25.523][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.RecipeTypeBracketHandler
+[11:35:25.525][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.BracketHandlers
+[11:35:25.532][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.BracketDumpers
+[11:35:25.539][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.BracketValidators
+[11:35:25.589][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.CraftingTableManager
+[11:35:25.607][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.FurnaceManager
+[11:35:25.608][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.SmithingManager
+[11:35:25.608][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.StoneCutterManager
+[11:35:25.614][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.SmokerManager
+[11:35:25.614][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.BlastFurnaceManager
+[11:35:25.615][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.CampFireManager
+[11:35:25.644][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.villagers.VillagerTrades
+[11:35:25.645][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.Composter
+[11:35:25.649][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.data.IntData
+[11:35:25.650][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.data.ByteArrayData
+[11:35:25.650][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.data.BoolData
+[11:35:25.745][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.data.StringData
+[11:35:25.793][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.data.LongArrayData
+[11:35:25.798][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.data.ByteData
+[11:35:25.801][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.data.DoubleData
+[11:35:25.802][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.data.FloatData
+[11:35:25.802][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.data.ListData
+[11:35:25.813][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.data.ShortData
+[11:35:25.816][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.data.IntArrayData
+[11:35:25.818][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.data.MapData
+[11:35:25.827][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.data.LongData
+[11:35:25.833][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.tag.MCTagWithAmount
+[11:35:25.833][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.tag.MCTag
+[11:35:25.836][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.tags.CrTTagRegistryData
+[11:35:25.837][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.tag.TagManager
+[11:35:25.840][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.tag.TagManagerBlock
+[11:35:25.844][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.tag.TagManagerItem
+[11:35:25.847][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.tag.TagManagerEntityType
+[11:35:25.862][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.tag.TagManagerFluid
+[11:35:25.885][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.game.MCGame
+[11:35:25.915][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.item.MCIngredientTransformed
+[11:35:25.916][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.item.IngredientList
+[11:35:25.918][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.item.MCIngredientConditioned
+[11:35:25.918][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.item.MCWeightedItemStack
+[11:35:25.919][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.food.MCFood
+[11:35:25.924][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.commands.custom.MCCommandDispatcher
+[11:35:25.925][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.commands.custom.MCCommand
+[11:35:25.930][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.commands.custom.MCParsedArgument
+[11:35:25.931][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.commands.custom.MCCommandNode
+[11:35:25.931][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.commands.custom.MCRootCommandNode
+[11:35:25.932][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.commands.custom.MCAmbiguityConsumer
+[11:35:25.943][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.commands.custom.MCCommandContextBuilder
+[11:35:25.943][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.commands.custom.MCImmutableStringReader
+[11:35:25.949][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.commands.custom.MCArgumentCommandNode
+[11:35:25.958][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.commands.custom.MCSuggestionsBuilder
+[11:35:25.967][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.commands.custom.MCSingleRedirectModifier
+[11:35:25.967][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.commands.custom.MCLiteralCommandNode
+[11:35:25.968][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.commands.custom.MCResultConsumer
+[11:35:25.969][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.commands.custom.MCRequiredArgumentBuilder
+[11:35:25.971][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.commands.custom.MCParseResults
+[11:35:25.972][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.commands.custom.MCCommandSource
+[11:35:25.972][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.commands.custom.CustomCommands
+[11:35:25.984][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.commands.custom.MCStringRange
+[11:35:25.985][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.commands.custom.MCLiteralArgumentBuilder
+[11:35:25.990][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.commands.custom.MCParsedCommandNode
+[11:35:26.010][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.commands.custom.MCRedirectModifier
+[11:35:26.024][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.commands.custom.MCSuggestion
+[11:35:26.033][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.commands.custom.MCArgumentBuilder
+[11:35:26.038][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.commands.custom.MCCommandContext
+[11:35:26.042][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.commands.custom.MCSuggestionProvider
+[11:35:26.046][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.commands.custom.MCSuggestionContext
+[11:35:26.050][CONSTRUCT][CLIENT][DEBUG] Registering crafttweaker.api.commands.custom.MCSuggestions
+[11:35:26.055][CONSTRUCT][CLIENT][DEBUG] Registering mods.immersivepetroleum.ReservoirRegistry
+[11:35:26.057][CONSTRUCT][CLIENT][DEBUG] Registering mods.immersivepetroleum.ReservoirBuilder
+[11:35:26.057][CONSTRUCT][CLIENT][DEBUG] Registering mods.immersivepetroleum.Lubricant
+[11:35:26.058][CONSTRUCT][CLIENT][DEBUG] Registering mods.immersivepetroleum.FuelRegistry
+[11:35:26.058][CONSTRUCT][CLIENT][DEBUG] Registering mods.immersivepetroleum.DistillationTower
+[11:35:26.060][CONSTRUCT][CLIENT][DEBUG] Registering mods.immersivepetroleum.DistillationBuilder
+[11:35:26.062][CONSTRUCT][CLIENT][DEBUG] Registering mods.thermal.Smelter
+[11:35:26.062][CONSTRUCT][CLIENT][DEBUG] Registering mods.thermal.SmelterCatalyst
+[11:35:26.063][CONSTRUCT][CLIENT][DEBUG] Registering mods.thermal.Sawmill
+[11:35:26.063][CONSTRUCT][CLIENT][DEBUG] Registering mods.thermal.Refinery
+[11:35:26.067][CONSTRUCT][CLIENT][DEBUG] Registering mods.thermal.Pyrolyzer
+[11:35:26.072][CONSTRUCT][CLIENT][DEBUG] Registering mods.thermal.Pulverizer
+[11:35:26.074][CONSTRUCT][CLIENT][DEBUG] Registering mods.thermal.PulverizerCatalyst
+[11:35:26.075][CONSTRUCT][CLIENT][DEBUG] Registering mods.thermal.Press
+[11:35:26.075][CONSTRUCT][CLIENT][DEBUG] Registering mods.thermal.Insolator
+[11:35:26.075][CONSTRUCT][CLIENT][DEBUG] Registering mods.thermal.InsolatorCatalyst
+[11:35:26.080][CONSTRUCT][CLIENT][DEBUG] Registering mods.thermal.Furnace
+[11:35:26.081][CONSTRUCT][CLIENT][DEBUG] Registering mods.thermal.Crucible
+[11:35:26.108][CONSTRUCT][CLIENT][DEBUG] Registering mods.thermal.Chiller
+[11:35:26.108][CONSTRUCT][CLIENT][DEBUG] Registering mods.thermal.Centrifuge
+[11:35:26.110][CONSTRUCT][CLIENT][DEBUG] Registering mods.thermal.Brewer
+[11:35:26.117][CONSTRUCT][CLIENT][DEBUG] Registering mods.thermal.Bottler
+[11:35:26.119][CONSTRUCT][CLIENT][DEBUG] Registering mods.thermal.StirlingFuel
+[11:35:26.120][CONSTRUCT][CLIENT][DEBUG] Registering mods.thermal.NumismaticFuel
+[11:35:26.122][CONSTRUCT][CLIENT][DEBUG] Registering mods.thermal.MagmaticFuel
+[11:35:26.122][CONSTRUCT][CLIENT][DEBUG] Registering mods.thermal.LapidaryFuel
+[11:35:26.123][CONSTRUCT][CLIENT][DEBUG] Registering mods.thermal.CompressionFuel
+[11:35:26.277][CONSTRUCT][CLIENT][DEBUG] Registering Native TagManager with TagFolder 'blocks'
+[11:35:26.279][CONSTRUCT][CLIENT][DEBUG] Registering Native TagManager with TagFolder 'items'
+[11:35:26.279][CONSTRUCT][CLIENT][DEBUG] Registering Native TagManager with TagFolder 'entity_types'
+[11:35:26.280][CONSTRUCT][CLIENT][DEBUG] Registering Native TagManager with TagFolder 'fluids'
+[11:35:26.280][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
+[11:35:32.518][LOAD_REGISTRIES][CLIENT][DEBUG] Setting up Tag Managers
+[11:35:32.518][LOAD_REGISTRIES][CLIENT][DEBUG] Creating Wrapper TagManager for type 'minecraft:potion' with tag folder 'potions'
+[11:35:32.519][LOAD_REGISTRIES][CLIENT][DEBUG] Creating Wrapper TagManager for type 'mekanism:pigment' with tag folder 'pigments'
+[11:35:32.519][LOAD_REGISTRIES][CLIENT][DEBUG] Could not register tag manager for pigments
+[11:35:32.519][LOAD_REGISTRIES][CLIENT][DEBUG] Creating Wrapper TagManager for type 'minecraft:enchantment' with tag folder 'enchantments'
+[11:35:32.519][LOAD_REGISTRIES][CLIENT][DEBUG] Creating Wrapper TagManager for type 'minecraft:block_entity_type' with tag folder 'tile_entity_types'
+[11:35:32.519][LOAD_REGISTRIES][CLIENT][DEBUG] Could not register tag manager for tile_entity_types
+[11:35:32.519][LOAD_REGISTRIES][CLIENT][DEBUG] Creating Wrapper TagManager for type 'mekanism:slurry' with tag folder 'slurries'
+[11:35:32.519][LOAD_REGISTRIES][CLIENT][DEBUG] Could not register tag manager for slurries
+[11:35:32.519][LOAD_REGISTRIES][CLIENT][DEBUG] Creating Wrapper TagManager for type 'mekanism:infuse_type' with tag folder 'infuse_types'
+[11:35:32.519][LOAD_REGISTRIES][CLIENT][DEBUG] Could not register tag manager for infuse_types
+[11:35:32.519][LOAD_REGISTRIES][CLIENT][DEBUG] Creating Wrapper TagManager for type 'mekanism:gas' with tag folder 'gases'
+[11:35:32.519][LOAD_REGISTRIES][CLIENT][DEBUG] Could not register tag manager for gases
+[11:35:32.519][LOAD_REGISTRIES][CLIENT][DEBUG] Finished setting up Tag Managers
+[11:35:43.749][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
+[11:35:43.754][COMMON_SETUP][CLIENT][DEBUG] This is a first run. All IActions will be applied.
+[11:35:44.087][COMMON_SETUP][CLIENT][DEBUG] Could not get class for type string[string] attempting to do stuff anyways
+[11:35:44.088][COMMON_SETUP][CLIENT][DEBUG] Could not get class for type string[string] attempting to do stuff anyways
+[11:35:44.088][COMMON_SETUP][CLIENT][DEBUG] Could not get class for type IData[string] attempting to do stuff anyways
+[11:35:44.091][COMMON_SETUP][CLIENT][DEBUG] Could not get class for type IData[] attempting to do stuff anyways
+[11:35:44.148][COMMON_SETUP][CLIENT][DEBUG] This is loader 'setupCommon' run #1
+[11:35:44.316][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
+[11:38:35.802][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[11:38:35.802][DONE][CLIENT][DEBUG] This is a first run. All IActions will be applied.
+[11:38:35.848][DONE][CLIENT][DEBUG] Could not get class for type string[string] attempting to do stuff anyways
+[11:38:35.848][DONE][CLIENT][DEBUG] Could not get class for type string[string] attempting to do stuff anyways
+[11:38:35.848][DONE][CLIENT][DEBUG] Could not get class for type IData[string] attempting to do stuff anyways
+[11:38:35.850][DONE][CLIENT][DEBUG] Could not get class for type IData[] attempting to do stuff anyways
+[11:38:35.865][DONE][CLIENT][DEBUG] This is loader 'crafttweaker' run #1
+[11:38:35.874][DONE][CLIENT][INFO] Finished loading Scripts!
+[11:38:42.951][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[11:38:42.982][DONE][CLIENT][DEBUG] Could not get class for type string[string] attempting to do stuff anyways
+[11:38:42.982][DONE][CLIENT][DEBUG] Could not get class for type string[string] attempting to do stuff anyways
+[11:38:42.982][DONE][CLIENT][DEBUG] Could not get class for type IData[string] attempting to do stuff anyways
+[11:38:42.983][DONE][CLIENT][DEBUG] Could not get class for type IData[] attempting to do stuff anyways
+[11:38:42.989][DONE][CLIENT][DEBUG] This is loader 'crafttweaker' run #2
+[11:38:43.008][DONE][CLIENT][INFO] Finished loading Scripts!
+[11:44:14.955][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[11:44:14.984][DONE][CLIENT][DEBUG] Could not get class for type string[string] attempting to do stuff anyways
+[11:44:14.984][DONE][CLIENT][DEBUG] Could not get class for type string[string] attempting to do stuff anyways
+[11:44:14.984][DONE][CLIENT][DEBUG] Could not get class for type IData[string] attempting to do stuff anyways
+[11:44:14.985][DONE][CLIENT][DEBUG] Could not get class for type IData[] attempting to do stuff anyways
+[11:44:14.992][DONE][CLIENT][DEBUG] This is loader 'crafttweaker' run #3
+[11:44:15.004][DONE][CLIENT][INFO] Finished loading Scripts!
+[11:44:28.738][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[11:44:28.755][DONE][CLIENT][DEBUG] Could not get class for type string[string] attempting to do stuff anyways
+[11:44:28.755][DONE][CLIENT][DEBUG] Could not get class for type string[string] attempting to do stuff anyways
+[11:44:28.755][DONE][CLIENT][DEBUG] Could not get class for type IData[string] attempting to do stuff anyways
+[11:44:28.756][DONE][CLIENT][DEBUG] Could not get class for type IData[] attempting to do stuff anyways
+[11:44:28.762][DONE][CLIENT][DEBUG] This is loader 'crafttweaker' run #4
+[11:44:28.773][DONE][CLIENT][INFO] Finished loading Scripts!
+[11:44:42.774][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[11:44:42.789][DONE][CLIENT][DEBUG] Could not get class for type string[string] attempting to do stuff anyways
+[11:44:42.789][DONE][CLIENT][DEBUG] Could not get class for type string[string] attempting to do stuff anyways
+[11:44:42.790][DONE][CLIENT][DEBUG] Could not get class for type IData[string] attempting to do stuff anyways
+[11:44:42.790][DONE][CLIENT][DEBUG] Could not get class for type IData[] attempting to do stuff anyways
+[11:44:42.798][DONE][CLIENT][DEBUG] This is loader 'crafttweaker' run #5
+[11:44:42.808][DONE][CLIENT][INFO] Finished loading Scripts!
+[11:44:56.479][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[11:44:56.492][DONE][CLIENT][DEBUG] Could not get class for type string[string] attempting to do stuff anyways
+[11:44:56.493][DONE][CLIENT][DEBUG] Could not get class for type string[string] attempting to do stuff anyways
+[11:44:56.493][DONE][CLIENT][DEBUG] Could not get class for type IData[string] attempting to do stuff anyways
+[11:44:56.493][DONE][CLIENT][DEBUG] Could not get class for type IData[] attempting to do stuff anyways
+[11:44:56.499][DONE][CLIENT][DEBUG] This is loader 'crafttweaker' run #6
+[11:44:56.510][DONE][CLIENT][INFO] Finished loading Scripts!

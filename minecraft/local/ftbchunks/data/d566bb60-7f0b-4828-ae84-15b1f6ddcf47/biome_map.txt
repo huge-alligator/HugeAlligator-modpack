@@ -1,0 +1,15 @@
+#010 minecraft:forest
+#3F9 minecraft:giant_spruce_taiga_hills
+#655 minecraft:giant_tree_taiga_hills
+#467 biomesoplenty:highland
+#121 biomesoplenty:highland_crag
+#5A5 biomesoplenty:orchard
+#3DC minecraft:plains
+#698 biomesoplenty:redwood_forest
+#278 biomesoplenty:redwood_forest_edge
+#36B biomesoplenty:redwood_hills
+#5FF minecraft:river
+#2CF biomesoplenty:shrubland
+#462 biomesoplenty:shrubland_hills
+#169 minecraft:taiga
+#452 minecraft:wooded_hills

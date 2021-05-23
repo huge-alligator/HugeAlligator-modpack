@@ -1,0 +1,12 @@
+#47F minecraft:birch_forest
+#0D2 minecraft:birch_forest_hills
+#5F2 biomesoplenty:grove_lakes
+#5A5 biomesoplenty:orchard
+#3DC minecraft:plains
+#5FF minecraft:river
+#67B minecraft:savanna
+#274 biomesoplenty:scrubland
+#2CF biomesoplenty:shrubland
+#462 biomesoplenty:shrubland_hills
+#774 minecraft:sunflower_plains
+#201 biomesoplenty:wooded_scrubland

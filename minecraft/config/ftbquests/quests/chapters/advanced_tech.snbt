@@ -1,0 +1,22 @@
+{
+	id: "054D97114E012DA3",
+	group: "",
+	order_index: 2,
+	filename: "advanced_tech",
+	title: "Advanced Tech",
+	icon: "mekanism:alloy_atomic",
+	subtitle: ["Tech that is a bit on the complicated side."],
+	default_quest_shape: "",
+	quests: [{
+		title: "MEKANISM!!!",
+		x: 0.0d,
+		y: 0.0d,
+		shape: "diamond",
+		id: "4FD169DBAA4CB504",
+		tasks: [{
+			id: "04888A6DE31391E8",
+			type: "item",
+			item: "appliedenergistics2:sky_stone_block"
+		}]
+	}]
+}

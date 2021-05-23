@@ -1,0 +1,261 @@
+{
+	id: "400619A0A41EE79B",
+	group: "",
+	order_index: 1,
+	filename: "mechanical_devices",
+	title: "Mechanical Devices",
+	icon: "create:cogwheel",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -4.5d,
+			y: 0.0d,
+			id: "382D2D8034EE24BF",
+			tasks: [{
+				id: "0518CF9A99DD6BB8",
+				type: "item",
+				item: "create:andesite_alloy",
+				count: 8L
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 0.0d,
+			dependencies: ["382D2D8034EE24BF"],
+			id: "15FC7E141774710B",
+			tasks: [{
+				id: "0841E2F97D703C2C",
+				type: "item",
+				item: "create:shaft"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 0.0d,
+			dependencies: ["15FC7E141774710B"],
+			id: "42B6AC3C55B90E39",
+			tasks: [{
+				id: "593BD4EF056EA5E5",
+				type: "item",
+				item: "create:water_wheel"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 1.5d,
+			dependencies: [
+				"15FC7E141774710B",
+				"16FE2E3A553F0F21"
+			],
+			id: "6389B3DBFC4A5B2E",
+			tasks: [{
+				id: "6D3B84C4591DCD6D",
+				type: "item",
+				item: "create:windmill_bearing"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -1.5d,
+			dependencies: ["15FC7E141774710B"],
+			id: "11FAD65A6A155AEF",
+			tasks: [{
+				id: "16DF6F2FE513B558",
+				type: "item",
+				item: "create:hand_crank"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 0.0d,
+			dependencies: [
+				"11FAD65A6A155AEF",
+				"42B6AC3C55B90E39",
+				"6389B3DBFC4A5B2E"
+			],
+			id: "6266F0B56AF4F108",
+			tasks: [{
+				id: "6F01D43E7AF9708F",
+				type: "item",
+				item: "create:speedometer"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -2.5d,
+			dependencies: ["15FC7E141774710B"],
+			id: "7FDA73C5510DDF89",
+			tasks: [{
+				id: "7303EE667DFFFF37",
+				type: "item",
+				item: "create:belt_connector"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 2.5d,
+			dependencies: ["15FC7E141774710B"],
+			id: "4E42A08AFDF64175",
+			tasks: [
+				{
+					id: "795E3886FE7CD752",
+					type: "item",
+					item: "create:cogwheel"
+				},
+				{
+					id: "46BFB3C600913340",
+					type: "item",
+					item: "create:large_cogwheel"
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: -3.5d,
+			dependencies: ["7FDA73C5510DDF89"],
+			id: "5F721EF69153AAC6",
+			tasks: [{
+				id: "41A566F99A8818B0",
+				type: "item",
+				item: "create:andesite_funnel"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 0.0d,
+			dependencies: ["6266F0B56AF4F108"],
+			id: "3D5B4025538C47A0",
+			tasks: [{
+				id: "3FE5EB8C633DA959",
+				type: "item",
+				item: "create:mechanical_press"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -1.5d,
+			dependencies: ["382D2D8034EE24BF"],
+			id: "2D019C52E4AFC0D2",
+			tasks: [{
+				id: "10190A9D490B39E4",
+				type: "item",
+				item: "create:depot"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 1.5d,
+			dependencies: ["6266F0B56AF4F108"],
+			id: "034061DBCCB377CD",
+			tasks: [{
+				id: "7B28928F4F43267B",
+				type: "item",
+				item: "create:mechanical_drill"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 0.0d,
+			dependencies: ["3D5B4025538C47A0"],
+			id: "7C96320387AD04A7",
+			tasks: [{
+				id: "14C34A1945826BCC",
+				type: "item",
+				item: "create:mechanical_saw"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -1.5d,
+			dependencies: ["3D5B4025538C47A0"],
+			id: "1D1FBB3FD45AEDC0",
+			tasks: [{
+				id: "564A04DA7A6CDDE1",
+				type: "item",
+				item: "create:mechanical_harvester"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 1.5d,
+			dependencies: ["3D5B4025538C47A0"],
+			id: "2FCA8B1C4F311340",
+			tasks: [{
+				id: "7A0FC7FD0E9315AA",
+				type: "item",
+				item: "create:mechanical_plough"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -1.5d,
+			dependencies: ["6266F0B56AF4F108"],
+			id: "0CAE12C5BCC6AA7E",
+			tasks: [{
+				id: "10ABD15F2084EFDC",
+				type: "item",
+				item: "create:millstone"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 1.5d,
+			dependencies: ["382D2D8034EE24BF"],
+			id: "177FF49F9B78C815",
+			tasks: [{
+				id: "04C7C433E055A67A",
+				type: "item",
+				item: "create:linear_chassis"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 3.0d,
+			dependencies: ["382D2D8034EE24BF"],
+			id: "12748EBA9DBF7602",
+			tasks: [{
+				id: "7A51EFE5D2C560FE",
+				type: "item",
+				item: "create:cart_assembler"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 3.5d,
+			id: "16FE2E3A553F0F21",
+			tasks: [{
+				id: "0FBA39772C218BA8",
+				type: "item",
+				item: "create:radial_chassis"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 3.0d,
+			dependencies: ["3D5B4025538C47A0"],
+			id: "3A4C57803C6B5644",
+			tasks: [{
+				id: "06D638C3589A98E1",
+				type: "item",
+				item: {
+					id: "create:super_glue",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 2.5d,
+			dependencies: ["6389B3DBFC4A5B2E"],
+			id: "791E39BCB74DBC49",
+			tasks: [{
+				id: "2D1D2519E030AAB9",
+				type: "item",
+				item: "create:sail_frame"
+			}]
+		}
+	]
+}

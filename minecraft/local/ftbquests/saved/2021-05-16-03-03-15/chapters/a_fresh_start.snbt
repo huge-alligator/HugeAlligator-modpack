@@ -1,0 +1,267 @@
+{
+	id: "2856DDB73CDCD548",
+	group: "",
+	order_index: 0,
+	filename: "a_fresh_start",
+	title: "A Fresh Start",
+	icon: "minecraft:oak_sapling",
+	subtitle: ["A fresh start in your new life."],
+	default_quest_shape: "circle",
+	quests: [
+		{
+			title: "First Steps",
+			icon: "minecraft:grass_block",
+			x: 0.0d,
+			y: 0.0d,
+			shape: "diamond",
+			subtitle: "Welcome to the Huge Alligator Network!",
+			id: "5FF2FCC9BCC26A1A",
+			tasks: [
+				{
+					id: "30D7EF84189271E5",
+					type: "dimension",
+					dimension: "minecraft:overworld"
+				},
+				{
+					id: "144FFDF36F42BD30",
+					type: "checkmark",
+					title: "WELCOME!!!"
+				}
+			],
+			rewards: [
+				{
+					id: "0BF624D2B7AF1C21",
+					type: "item",
+					item: {
+						id: "minecraft:leather_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "25C0038A060F0985",
+					type: "item",
+					item: {
+						id: "minecraft:leather_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "17E8BB8DDE917120",
+					type: "item",
+					item: {
+						id: "minecraft:leather_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "1FB63306C8C2A0DA",
+					type: "item",
+					item: {
+						id: "minecraft:leather_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "58194A49E15F977F",
+					type: "item",
+					item: {
+						id: "minecraft:stone_pickaxe",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "3EE181F5459E8C1F",
+					type: "item",
+					item: {
+						id: "minecraft:wooden_shovel",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "2AEA0CE06977C00F",
+					type: "item",
+					item: {
+						id: "minecraft:wooden_sword",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "19C6641DA54CD4B7",
+					type: "item",
+					item: "minecraft:torch",
+					count: 32
+				}
+			]
+		},
+		{
+			title: "Morning Wood",
+			icon: "minecraft:oak_planks",
+			x: 1.0d,
+			y: 0.0d,
+			shape: "square",
+			description: ["Getting Wood in the Morning"],
+			dependencies: ["5FF2FCC9BCC26A1A"],
+			id: "50FBBE0A1DF6FD9F",
+			tasks: [{
+				id: "4F9552127E909412",
+				type: "item",
+				title: "THIS IS MAHOGANY!",
+				item: "minecraft:oak_planks",
+				count: 16L,
+				consume_items: false,
+				only_from_crafting: false
+			}],
+			rewards: [
+				{
+					id: "484CE6311883D3DF",
+					type: "item",
+					item: "minecraft:oak_log",
+					count: 32
+				},
+				{
+					id: "7CAA2CBFD5693979",
+					type: "item",
+					item: "minecraft:cobblestone",
+					count: 32
+				},
+				{
+					id: "0860FCDED2AA7CF4",
+					type: "item",
+					item: "minecraft:grass_block",
+					count: 32
+				},
+				{
+					id: "3911F43E2ADEF0E3",
+					type: "item",
+					item: "mcwdoors:oak_japanese_door",
+					count: 2
+				}
+			]
+		},
+		{
+			title: "Off to the dream realm.",
+			x: 2.0d,
+			y: 1.0d,
+			shape: "circle",
+			subtitle: "Slumber time.",
+			dependencies: ["50FBBE0A1DF6FD9F"],
+			id: "50FA72CEC5AA1A69",
+			tasks: [{
+				id: "34C667BC06098B23",
+				type: "item",
+				item: "minecraft:white_bed"
+			}],
+			rewards: [
+				{
+					id: "184E13132B00E3A4",
+					type: "item",
+					title: "Bed side Table.",
+					item: "engineersdecor:treated_wood_side_table"
+				},
+				{
+					id: "27145CCF1EFF784F",
+					type: "item",
+					item: "tinyredstone:tiny_redstone_lamp"
+				}
+			]
+		},
+		{
+			title: "Better Sleep",
+			x: 3.0d,
+			y: 2.0d,
+			shape: "circle",
+			subtitle: "Sleeping! Made Better!",
+			dependencies: ["50FA72CEC5AA1A69"],
+			id: "291A84BDD94CF875",
+			tasks: [{
+				id: "453A64EDF814C4F0",
+				type: "item",
+				item: "comforts:sleeping_bag_white"
+			}],
+			rewards: [
+				{
+					id: "596FD2B873AE300B",
+					type: "item",
+					item: "create:builders_tea",
+					count: 6
+				},
+				{
+					id: "33E028D5C3D9DF35",
+					type: "item",
+					item: "minecraft:cookie",
+					count: 16
+				}
+			]
+		},
+		{
+			title: "Chillaxing out back.",
+			x: 3.0d,
+			y: 3.0d,
+			dependencies: ["291A84BDD94CF875"],
+			id: "7A138A4C65B35EFD",
+			tasks: [{
+				id: "5175812C8D0D4E6F",
+				type: "item",
+				item: "comforts:hammock_white"
+			}],
+			rewards: [{
+				id: "195F47D3168452F5",
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			title: "THE Multitool",
+			x: 2.0d,
+			y: -1.0d,
+			subtitle: "A Swiss Army Knife, but Not!",
+			dependencies: ["50FBBE0A1DF6FD9F"],
+			id: "18C671BAE51007E7",
+			tasks: [{
+				id: "6007283D5BE91F1C",
+				type: "item",
+				item: {
+					id: "mekanismtools:stone_paxel",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "4B9214DE0B4CFF6A",
+					type: "item",
+					item: "minecraft:coal",
+					count: 32
+				},
+				{
+					id: "6E221E17B633E66E",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		}
+	]
+}

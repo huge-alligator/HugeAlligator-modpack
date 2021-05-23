@@ -1,0 +1,54 @@
+{
+	id: "4286CF5D18D35B50",
+	group: "",
+	order_index: 3,
+	filename: "magic",
+	title: "Magic!",
+	icon: {
+		id: "eidolon:bonechill_wand",
+		Count: 1b,
+		tag: {
+			Damage: 0
+		}
+	},
+	subtitle: ["You're a wizard, Harry!"],
+	default_quest_shape: "",
+	quests: [{
+		title: "Astral Sorcery!",
+		icon: "astralsorcery:altar_discovery",
+		x: 0.0d,
+		y: 0.0d,
+		shape: "diamond",
+		id: "3887C121E5481ABA",
+		tasks: [
+			{
+				id: "44076F0D7A57D8CD",
+				type: "item",
+				item: "astralsorcery:tome"
+			},
+			{
+				id: "34E5E61258CA0646",
+				type: "item",
+				item: "astralsorcery:aquamarine"
+			},
+			{
+				id: "719DC866AA62D451",
+				type: "checkmark"
+			}
+		],
+		rewards: [
+			{
+				id: "7EACF24B8170DAE6",
+				type: "item",
+				item: "astralsorcery:marble_raw",
+				count: 32
+			},
+			{
+				id: "44FDFA3838AA6758",
+				type: "item",
+				item: "astralsorcery:marble_pillar",
+				count: 16
+			}
+		]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	id: "3AF82639B669445A",
+	group: "",
+	order_index: 4,
+	filename: "dimensions",
+	title: "Dimensions!",
+	icon: "twilightforest:twilight_portal_miniature_structure",
+	subtitle: ["Oh, the places you'll go!"],
+	default_quest_shape: "",
+	quests: [{
+		icon: "minecraft:netherrack",
+		x: -0.5d,
+		y: -1.0d,
+		shape: "diamond",
+		id: "1A9D24365C06EDA5",
+		tasks: [{
+			id: "39B772441B5E7F51",
+			type: "dimension",
+			dimension: "minecraft:nether"
+		}]
+	}]
+}

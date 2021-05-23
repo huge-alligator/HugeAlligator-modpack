@@ -1,0 +1,347 @@
+{
+	id: "36A35EA16AED6CD5",
+	group: "",
+	order_index: 0,
+	filename: "new_beginnings",
+	title: "New Beginnings",
+	icon: "minecraft:oak_sapling",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Weird Looking Trees",
+			icon: "minecraft:oak_log",
+			x: -13.5d,
+			y: -1.5d,
+			description: ["These trees look a little more... tree like, don't they? Well you're in luck! Breaking any tree at the base will fell the whole tree! Trees also grow over time, you can break off individual branches without killing the whole tree as well. "],
+			id: "55677D242C4005CA",
+			tasks: [
+				{
+					id: "246A1FADE660E07B",
+					type: "item",
+					title: "Any #minecraft:logs",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "minecraft:logs"
+						}
+					},
+					count: 16L,
+					consume_items: false,
+					only_from_crafting: false
+				},
+				{
+					id: "60763CB6D6401E67",
+					type: "item",
+					item: "minecraft:stick",
+					count: 16L,
+					consume_items: false,
+					only_from_crafting: false
+				}
+			],
+			rewards: [{
+				id: "2255CF6F115D0AC3",
+				type: "item",
+				item: "minecraft:cooked_beef",
+				count: 8
+			}]
+		},
+		{
+			title: "Tree Seeds",
+			icon: "dynamictrees:oak_seed",
+			x: -12.5d,
+			y: -0.5d,
+			description: ["Trees will drop seeds. If left on the grass they are self planting, though they can also be planted by you with a right click."],
+			dependencies: ["55677D242C4005CA"],
+			id: "3483009A51EEFE14",
+			tasks: [
+				{
+					id: "663E9F5EB4C1526D",
+					type: "item",
+					item: "dynamictrees:oak_seed",
+					consume_items: false,
+					only_from_crafting: false
+				},
+				{
+					id: "2DF206C0A5CDC30A",
+					type: "item",
+					item: "dynamictrees:dark_oak_seed",
+					consume_items: false,
+					only_from_crafting: false
+				},
+				{
+					id: "50CBAFB0FACAF5E7",
+					type: "item",
+					item: "dynamictrees:spruce_seed",
+					consume_items: false,
+					only_from_crafting: false
+				},
+				{
+					id: "5667F15497DDFDA5",
+					type: "item",
+					item: "dynamictrees:birch_seed",
+					consume_items: false,
+					only_from_crafting: false
+				},
+				{
+					id: "72188D8A6663AAD3",
+					type: "item",
+					item: "dynamictrees:acacia_seed",
+					consume_items: false,
+					only_from_crafting: false
+				},
+				{
+					id: "2FC1659EB905CC3F",
+					type: "item",
+					item: "dynamictrees:jungle_seed",
+					consume_items: false,
+					only_from_crafting: false
+				}
+			]
+		},
+		{
+			title: "Don't Get Lost!",
+			x: -9.0d,
+			y: -6.0d,
+			description: ["This Atlas is much more versatile albeit less detailed than a map. Of course you could always install your own clientside mini-map mod but why would you do that?"],
+			id: "49865A6696A925A6",
+			tasks: [{
+				id: "4BA1C70C661B10DB",
+				type: "item",
+				item: "antiqueatlas:empty_antique_atlas",
+				consume_items: false
+			}]
+		},
+		{
+			title: "I Got The Horses In The Back",
+			x: -11.5d,
+			y: 2.5d,
+			subtitle: "I'm gunna ride till I can't no more",
+			description: ["This sweet potato ocarina will help you find your horse when it runs off. This one may have once belonged to Saria."],
+			id: "32DC25C7E779963C",
+			tasks: [{
+				id: "4E46389424C068CF",
+				type: "item",
+				item: "minecraft:saddle",
+				consume_items: false,
+				only_from_crafting: false
+			}],
+			rewards: [{
+				id: "61A622CD45C92621",
+				type: "item",
+				item: {
+					id: "dwmh:ocarina",
+					Count: 1b,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: -12.5d,
+			y: 1.5d,
+			subtitle: "Another one.",
+			dependencies: ["32DC25C7E779963C"],
+			id: "36835659D8C27DD9",
+			tasks: [{
+				id: "705A29A229C011BA",
+				type: "item",
+				item: "minecraft:golden_carrot",
+				count: 2L,
+				consume_items: false
+			}],
+			rewards: [{
+				id: "1CABD4CC0545F0B3",
+				type: "item",
+				item: "minecraft:saddle"
+			}]
+		},
+		{
+			x: -11.5d,
+			y: 1.0d,
+			dependencies: ["32DC25C7E779963C"],
+			id: "5F341DB7875609A8",
+			tasks: [{
+				id: "6F145728888ED932",
+				type: "item",
+				item: "minecraft:hay_block"
+			}],
+			rewards: [
+				{
+					id: "699A883E76FAC3B6",
+					type: "item",
+					item: "minecraft:lead",
+					count: 2
+				},
+				{
+					id: "2EC645088B01309D",
+					type: "item",
+					item: "minecraft:oak_fence",
+					count: 2
+				}
+			]
+		},
+		{
+			title: "Rock All Night, Fish All Day",
+			x: -7.0d,
+			y: -2.5d,
+			dependencies: ["79E7BAE57E5E7719"],
+			id: "516FC2DBB8213AE6",
+			tasks: [{
+				id: "61BDBCEC39FB4078",
+				type: "item",
+				item: {
+					id: "minecraft:fishing_rod",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				},
+				consume_items: false
+			}],
+			rewards: [{
+				id: "22A74896A429F9CD",
+				type: "choice",
+				table_id: 7111383337692130341L
+			}]
+		},
+		{
+			x: -7.0d,
+			y: -0.5d,
+			dependencies: ["79E7BAE57E5E7719"],
+			id: "56838F407A38B4C1",
+			tasks: [{
+				id: "7DEA1A9151810AB4",
+				type: "item",
+				title: "Any #minecraft:beds",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+			}]
+		},
+		{
+			x: -9.5d,
+			y: -1.5d,
+			dependencies: ["55677D242C4005CA"],
+			id: "79E7BAE57E5E7719",
+			tasks: [{
+				id: "5F06F0447E68F3BF",
+				type: "item",
+				item: "minecraft:crafting_table"
+			}]
+		},
+		{
+			x: -8.5d,
+			y: -2.5d,
+			dependencies: ["79E7BAE57E5E7719"],
+			id: "0C4222CA3B5EFAED",
+			tasks: [{
+				id: "2BC74CC5F307318D",
+				type: "item",
+				item: "minecraft:stonecutter"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -1.5d,
+			dependencies: ["79E7BAE57E5E7719"],
+			id: "01A834F680FF2191",
+			tasks: [{
+				id: "6242671AE122CC95",
+				type: "item",
+				item: "charm:woodcutter"
+			}]
+		},
+		{
+			x: -8.5d,
+			y: -0.5d,
+			dependencies: ["79E7BAE57E5E7719"],
+			id: "25EE95FA9D7CA253",
+			tasks: [{
+				id: "5538A0F9377E3AC1",
+				type: "item",
+				item: "minecraft:loom"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: 1.0d,
+			dependencies: ["79E7BAE57E5E7719"],
+			id: "3DE2FA2F93440828",
+			tasks: [{
+				id: "1979FDF5E98AC62E",
+				type: "item",
+				item: "minecraft:furnace"
+			}]
+		},
+		{
+			x: -9.0d,
+			y: 2.0d,
+			dependencies: ["3DE2FA2F93440828"],
+			id: "533A7E1EEDA65A7D",
+			tasks: [{
+				id: "7E45530A275D0878",
+				type: "item",
+				item: "minecraft:smoker"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: 2.0d,
+			dependencies: ["3DE2FA2F93440828"],
+			id: "4333D8707EFEE333",
+			tasks: [{
+				id: "251E49104944E57E",
+				type: "item",
+				item: "minecraft:blast_furnace"
+			}]
+		},
+		{
+			x: -7.5d,
+			y: -3.5d,
+			dependencies: ["0C4222CA3B5EFAED"],
+			id: "6DFB4CDCF1E23E8E",
+			tasks: [{
+				id: "4B6D0D59E008AE50",
+				type: "item",
+				item: "minecraft:grindstone"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: -3.0d,
+			dependencies: ["79E7BAE57E5E7719"],
+			id: "3587EF381E2A85D9",
+			tasks: [{
+				id: "57B0906B0937A20E",
+				type: "item",
+				item: "minecraft:campfire"
+			}]
+		},
+		{
+			x: -10.5d,
+			y: -0.5d,
+			dependencies: ["79E7BAE57E5E7719"],
+			id: "3F1DEA94E81CCC8E",
+			tasks: [{
+				id: "2EDC785B1FE40733",
+				type: "item",
+				item: "minecraft:smithing_table"
+			}]
+		},
+		{
+			x: -10.5d,
+			y: -2.5d,
+			dependencies: ["79E7BAE57E5E7719"],
+			id: "5CB0C02D745BE496",
+			tasks: [{
+				id: "7F1BE003FC7F41DF",
+				type: "item",
+				item: "minecraft:composter"
+			}]
+		}
+	]
+}
