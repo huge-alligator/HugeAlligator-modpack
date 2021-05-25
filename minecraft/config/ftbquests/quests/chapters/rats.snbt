@@ -1,0 +1,11 @@
+{
+	id: "25B3FB0FEB9AD478",
+	group: "",
+	order_index: 7,
+	filename: "rats",
+	title: "Rats",
+	icon: "rats:cheese",
+	subtitle: ["We're rats, we're the rats!"],
+	default_quest_shape: "",
+	quests: []
+}

@@ -1,0 +1,11 @@
+{
+	id: "25A5900F2F1E5C20",
+	group: "",
+	order_index: 6,
+	filename: "challenges",
+	title: "Challenges!",
+	icon: "quark:diamond_heart",
+	subtitle: ["I challenge you! To a duel!"],
+	default_quest_shape: "",
+	quests: []
+}

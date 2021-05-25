@@ -14,9 +14,15 @@
 		shape: "diamond",
 		id: "4FD169DBAA4CB504",
 		tasks: [{
-			id: "04888A6DE31391E8",
+			id: "2D9DC20204BA2AF7",
 			type: "item",
-			item: "appliedenergistics2:sky_stone_block"
+			item: "mekanism:metallurgic_infuser"
+		}],
+		rewards: [{
+			id: "0C2053FF1528163B",
+			type: "item",
+			item: "minecraft:iron_ingot",
+			count: 5
 		}]
 	}]
 }
