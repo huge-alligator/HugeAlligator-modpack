@@ -1,0 +1,11 @@
+{
+	id: "568827D1AD4F763E",
+	group: "",
+	order_index: 5,
+	filename: "repeatable_quests",
+	title: "Repeatable Quests",
+	icon: "minecraft:wither_skeleton_skull",
+	subtitle: ["Have I ever told you the definition of insanity?"],
+	default_quest_shape: "",
+	quests: []
+}

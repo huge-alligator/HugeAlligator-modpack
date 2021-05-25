@@ -118,8 +118,9 @@
 			title: "Morning Wood",
 			icon: "minecraft:oak_planks",
 			x: 1.0d,
-			y: 0.0d,
+			y: 1.0d,
 			shape: "square",
+			subtitle: "Get some wood by the morning, your life might depend on it.",
 			description: ["Getting Wood in the Morning"],
 			dependencies: ["5FF2FCC9BCC26A1A"],
 			id: "50FBBE0A1DF6FD9F",
@@ -166,8 +167,8 @@
 		},
 		{
 			title: "Off to the dream realm.",
-			x: 2.0d,
-			y: 1.0d,
+			x: 1.0d,
+			y: 2.5d,
 			shape: "circle",
 			subtitle: "Slumber time.",
 			dependencies: ["50FBBE0A1DF6FD9F"],
@@ -175,7 +176,14 @@
 			tasks: [{
 				id: "34C667BC06098B23",
 				type: "item",
-				item: "minecraft:white_bed"
+				title: "Any #minecraft:beds",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
 			}],
 			rewards: [
 				{
@@ -198,8 +206,8 @@
 		},
 		{
 			title: "Better Sleep",
-			x: 3.0d,
-			y: 2.0d,
+			x: 2.5d,
+			y: 2.5d,
 			shape: "circle",
 			subtitle: "Sleeping! Made Better!",
 			dependencies: ["50FA72CEC5AA1A69"],
@@ -231,9 +239,10 @@
 		},
 		{
 			title: "Chillaxing out back.",
-			x: 3.0d,
-			y: 3.0d,
+			x: 4.0d,
+			y: 2.5d,
 			dependencies: ["291A84BDD94CF875"],
+			optional: true,
 			id: "7A138A4C65B35EFD",
 			tasks: [{
 				id: "5175812C8D0D4E6F",
@@ -248,10 +257,10 @@
 		},
 		{
 			title: "THE Multi-tool",
-			x: 2.0d,
-			y: -1.0d,
+			x: 1.0d,
+			y: -2.5d,
 			subtitle: "A Swiss Army Knife, but Not!",
-			dependencies: ["50FBBE0A1DF6FD9F"],
+			dependencies: ["3D6C1F09D966F562"],
 			id: "18C671BAE51007E7",
 			tasks: [{
 				id: "6007283D5BE91F1C",
@@ -277,6 +286,76 @@
 					xp_levels: 10
 				}
 			]
+		},
+		{
+			title: "HARD as a Rock!",
+			icon: "minecraft:cobblestone",
+			x: 1.0d,
+			y: -1.0d,
+			shape: "square",
+			subtitle: "Get some stone, cuz why not?",
+			dependencies: ["5FF2FCC9BCC26A1A"],
+			id: "3D6C1F09D966F562",
+			tasks: [{
+				id: "6F7908503BDA4E8F",
+				type: "item",
+				title: "A strong foundation.",
+				item: "minecraft:cobblestone",
+				count: 32L
+			}],
+			rewards: [
+				{
+					id: "57631AFE4AC6CAE2",
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: "05D5AB7910032BD3",
+					type: "item",
+					item: "minecraft:smoker"
+				}
+			]
+		},
+		{
+			title: "A reward, for YOU!",
+			icon: {
+				id: "minecraft:iron_pickaxe",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 2.5d,
+			y: -2.5d,
+			subtitle: "Good Job!",
+			dependencies: ["18C671BAE51007E7"],
+			id: "1CEC9038C050C23C",
+			tasks: [{
+				id: "20CFE82ACAC63670",
+				type: "item",
+				item: {
+					id: "minecraft:iron_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "You're Rich!",
+			icon: "minecraft:diamond",
+			x: 4.0d,
+			y: -2.5d,
+			subtitle: "A perfect gem to propose with!",
+			dependencies: ["1CEC9038C050C23C"],
+			dependency_requirement: "one_completed",
+			id: "664F0E6566E58DD8",
+			tasks: [{
+				id: "25704864C4A95DB4",
+				type: "item",
+				item: "minecraft:diamond"
+			}]
 		}
 	]
 }

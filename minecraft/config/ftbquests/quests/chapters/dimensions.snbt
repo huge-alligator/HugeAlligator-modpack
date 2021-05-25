@@ -7,16 +7,28 @@
 	icon: "twilightforest:twilight_portal_miniature_structure",
 	subtitle: ["Oh, the places you'll go!"],
 	default_quest_shape: "",
-	quests: [{
-		icon: "minecraft:netherrack",
-		x: -0.5d,
-		y: -1.0d,
-		shape: "diamond",
-		id: "1A9D24365C06EDA5",
-		tasks: [{
-			id: "39B772441B5E7F51",
-			type: "dimension",
-			dimension: "minecraft:nether"
-		}]
-	}]
+	quests: [
+		{
+			icon: "minecraft:netherrack",
+			x: -0.5d,
+			y: -1.0d,
+			shape: "diamond",
+			id: "1A9D24365C06EDA5",
+			tasks: [{
+				id: "39B772441B5E7F51",
+				type: "dimension",
+				dimension: "minecraft:nether"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -1.0d,
+			id: "3B0A725D0247CD4A",
+			tasks: [{
+				id: "0B0DC98D25380D7A",
+				type: "observation",
+				ticks: 0L
+			}]
+		}
+	]
 }
